@@ -1,0 +1,31 @@
+.game-box{
+  height: 160px;
+  width: 160px;
+  border: 2px solid black;
+  font-size: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body{
+  background-color:whitesmoke;
+
+}
+.board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 492px;
+  margin-top: 30px;
+}
+.full-game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  background-image: linear-gradient(lightgreen,lightblue);
+  width: 100%;
+  text-align: center;
+}
